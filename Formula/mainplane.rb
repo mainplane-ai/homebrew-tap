@@ -1,28 +1,28 @@
 class Mainplane < Formula
   desc "Open-source agent ecosystem across all your computers, browsers and files"
   homepage "https://mainplane.ai"
-  version "0.5.8"
+  version "0.5.9"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://dl.mainplane.ai/v#{version}/mainplane-darwin-arm64"
-      sha256 "10ee6ffcb10e8913a0d4bf3d03878d01b9fb986f7c93e0ea1fa670bd21a15667"
+      sha256 "986f1157743c713e971686c7ea54d7c6cfd2a703c7a5942b37e6247dfec82a68"
     end
     on_intel do
       url "https://dl.mainplane.ai/v#{version}/mainplane-darwin-amd64"
-      sha256 "bf9b79c2f3ced86064cb147e990996efd168c74bf41d0be2b7325abb3d021c8f"
+      sha256 "a3fca289d9fbfe1df63ce39708ed8df240b118249348fbf8d4bcf3324670b724"
     end
   end
 
   on_linux do
     on_arm do
       url "https://dl.mainplane.ai/v#{version}/mainplane-linux-arm64"
-      sha256 "4d1ca60b708c3774c490470419135aaae9ce903ed06d09f1913e59b221c99f75"
+      sha256 "c1c8c534cd6a25f2ede120c63e652a913fbde1b9e2d4dd81b82f4a58e73d0d6b"
     end
     on_intel do
       url "https://dl.mainplane.ai/v#{version}/mainplane-linux-amd64"
-      sha256 "3118c2791d4ad2462e1c15f23b200beed97c8415ea2cf9fb300009f244aadec8"
+      sha256 "5eb8843129c321876d5b010937fd003d2146bf94bc0c3f960be01c28226a3d0e"
     end
   end
 
